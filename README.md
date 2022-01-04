@@ -17,4 +17,8 @@ cd CodeTest
 npm start
 ```
 
+May have to run following, in case you get the "error:0308010C:digital envelope routines::unsupported" error:
+
+NODE_OPTIONS=--openssl-legacy-provider npm start
+
 3. Start coding

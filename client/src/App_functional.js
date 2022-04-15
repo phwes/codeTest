@@ -3,6 +3,7 @@ import React from "react";
 import ReactPlayer from "react-player";
 import logo from "./logo.png";
 import "./App.css";
+import RemoteJson from "./RemoteJson.js";
 
 // const axios = require("axios");
 
@@ -36,6 +37,7 @@ const App = (props) => {
             >
               <b>http://localhost:3001/getnotes</b>
             </a>
+            <RemoteJson url="http://localhost:3001/getnotes" />
           </div>
           <div className="NotesContainerSection">
             If you manage do that in time, please style the notes.
